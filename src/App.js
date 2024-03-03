@@ -6,6 +6,8 @@ import { img, logo } from "./images";
 function App() {
   const [allData, setAllData] = useState({
     fontFamily: "'Montserrat', sans-serif",
+    headingFontFamily: "'Poppins', sans-serif",
+
     logo: logo,
     companyName: "Liceria and co",
 
@@ -40,6 +42,7 @@ function App() {
           "--primaryColor": allData.primaryColor,
           "--secondaryColor": allData.secondaryColor,
           "--accentColor": allData.accentColor,
+          "--headingFontFamily": allData.headingFontFamily,
 
           fontFamily: allData.fontFamily,
         }}
