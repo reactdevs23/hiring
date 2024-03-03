@@ -38,10 +38,11 @@
   text-transform: uppercase;
 }
 .wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
-  align-items: flex-end;
-  justify-content: flex-start;
+  align-items: center;
+
   gap: 18px;
 }
 .infoContainer {
@@ -144,9 +145,7 @@
 }
 .imgContainer .img {
   width: 100%;
-  position: absolute;
-  right: 0;
-  bottom: 0px;
+
   max-width: 400px;
   z-index: 1;
 }
